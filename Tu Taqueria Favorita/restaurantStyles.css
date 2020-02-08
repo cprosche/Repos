@@ -1,0 +1,40 @@
+/*<!-- 
+Name: Cade Rosche
+Date: 2/3/20
+Rev:1
+-->
+*/
+
+/* Color Palette
+Blue: #3C91E6
+Lemon Curry: #BFAB25
+Black: #342E37
+White: #FAFFFD
+orange/coral: #FA824C
+*/
+
+body {
+    background-color: #FAFFFD;
+}
+
+/* Header and Footer */
+header h1 {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-align: center;
+}
+header p {
+    margin: 0;
+    border-bottom: thin solid #342E37;
+    padding: 5px;
+    
+}
+
+header p, footer {
+    background-color: #342E37;
+    color: #FAFFFD;
+}
+footer {
+    margin: 0 auto;
+    text-align: center;
+    padding: 5px;
+}
