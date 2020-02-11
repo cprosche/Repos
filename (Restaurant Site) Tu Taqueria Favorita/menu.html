@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<!-- 
+Name: Cade Rosche
+Date: 2/3/20
+Rev:1
+-->
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <link href="restaurantStyles.css" rel="stylesheet" type="text/css" />
+        
+        <title>Tu Taqueria Favorita</title>
+        
+        <!-- Bootstrap Link -->
+       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> 
+        
+        <style>
+/* Color Palette
+Blue: #3C91E6
+Lemon Curry: #BFAB25
+Black: #342E37
+White: #FAFFFD
+orange/coral: #FA824C
+*/
+            
+            section {
+                background-color:#BFAB25;
+            }
+/* menu heading */            
+            #menu-heading {
+                text-align: center;
+            }
+            #menu-heading h2 {
+                margin-bottom: 0px;
+                padding-bottom: 0px;
+            }
+            #menu-heading p {
+                margin-top: 0px;
+                padding-top: 0px;
+            }
+            
+/* menu body */
+            #menu-body {
+                text-align: center;
+            }
+            #menu-body h4 {
+                margin-bottom: 0px;
+            }
+            
+/* menu table styling */
+            table {
+                margin: auto;
+                margin-bottom: 10px;
+            }
+            th {
+                background-color: #3C91E6;
+            }
+            tr:nth-child(odd) {
+                background-color: lightgray;
+            }
+            tr:nth-child(even) {
+                background-color: #FAFFFD;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <p>Menu</p>
+        
+            <h1>Tu Taqueria Favorita</h1>
+        </header>
+        
+        
+        <nav>
+            <p>
+                <a id="home" class="btn badge-pill" href="index.html">&#127968;</a>
+                
+                <a id="menu" class="btn badge-pill" href="menu.html">Menu</a>    
+                
+                <a id="contact" class="btn badge-pill" href="contact.html">Contact Us</a>
+            </p>
+        </nav>
+        
+        <section>
+            
+            <div class="container-fluid">
+            
+            <div id="menu-heading" class="row">
+                <div class="col-md-12">
+                    <h2>Taco Menu</h2>
+                    <p>(price is per taco)</p>
+                </div>
+            </div>
+            
+            <div id="menu-body" class="row">   
+            
+            <div class="col-md-3">
+            <h4>CHICKEN TINGA</h4>
+            <p>roasted chicken, lime sour cream, fresco cheese, sliced radish. $3.50</p>
+            </div>
+            
+            <div class="col-md-3">
+            <h4>PEKING DUCK</h4>
+            <p>roasted duck, scallions, cucumber, spicy hoisin sauce, cilantro. $5</p>
+            </div>
+                
+            <div class="col-md-3">
+            <h4>PORK AL PASTOR</h4>
+            <p>pork al pastor, pineapple, spanish onion, cilantro. $4</p>
+            </div>
+                
+            <div class="col-md-3">    
+            <h4>BRUSSELS SPROUTS</h4>
+            <p>charred brussels sprouts, potato, muenster cheese, morita salsa. $4</p>
+            </div>
+                
+            <div class="col-md-3">   
+            <h4>KOREAN BBQ</h4>
+            <p>thin sliced korean-style BBQ beef, kimchi, asian slaw. $4.50</p>
+            </div>
+            
+            <div class="col-md-3">    
+            <h4>PORK BELLY BREAKFAST</h4>
+            <p>poached egg, pork belly, morita salsa, fresco cheese. $4.50</p>
+            </div>
+                
+            <div class="col-md-3">    
+            <h4>SHORT RIB</h4>
+            <p>short rib ropa vieja with tamarind sauce, pickled red onions, cilantro. $5</p>
+            </div>
+                
+            <div class="col-md-3">    
+            <h4>SHRIMP CURRY</h4>
+            <p>grilled shrimp in green curry sauce, asian slaw, cilantro. $4</p>
+            </div>
+            
+            <div id="menu-bev" class="col-md-12">
+            <table>
+                <thead>
+                    <tr>
+                        <th>BEVERAGES</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Jarritos</td>
+                        
+                        <td>$2</td>
+                    </tr>
+                    <tr>
+                        <td>Horchata</td>
+                        
+                        <td>2.00</td>
+                    </tr>
+                    <tr>
+                        <td>Pepsi</td>
+                        
+                        <td>$1.50</td>
+                    </tr>
+                     <tr>
+                        <td>Diet Pepsi</td>
+                        
+                        <td>$1.50</td>
+                    </tr>
+                </tbody>
+            </table>
+            </div>    
+                
+            </div>
+                
+               
+            </div>
+        </section>
+        <p></p>
+        <footer>
+             <p>1234 West East Road<br />Caledonia IL 61011 <br />Call Us: 123-456-7890</p>
+        </footer>
+        
+        <!-- JavaScript Links -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> 
+    </body>
+</html>

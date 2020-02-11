@@ -16,6 +16,10 @@ orange/coral: #FA824C
 body {
     background-color: #FAFFFD;
 }
+#front-page {
+    background-color: #FA824C;
+    padding: 20px;
+}
 
 /* Header and Footer */
 header h1 {
@@ -26,7 +30,6 @@ header p {
     margin: 0;
     border-bottom: thin solid #342E37;
     padding: 5px;
-    
 }
 
 header p, footer {
@@ -37,4 +40,21 @@ footer {
     margin: 0 auto;
     text-align: center;
     padding: 5px;
+}
+
+/* nav formatting */ 
+a:visited{
+    color: #FAFFFD;
+}
+nav .btn {
+    background-color: #3C91E6;
+    color: #342E37;
+    margin: 10px 40px;
+}
+nav .btn:hover {
+            font-weight: bold;
+        }
+nav {
+    background-color: #342E37;
+    text-align: center;
 }

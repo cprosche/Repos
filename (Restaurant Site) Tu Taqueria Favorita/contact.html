@@ -15,6 +15,12 @@ Rev:1
         
          <!-- Bootstrap Link -->
        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> 
+        
+        <style>
+            .required-info {
+                font: bold;
+            }
+        </style>
     </head>
     <body>
         <header>
@@ -25,26 +31,28 @@ Rev:1
         
         
         <nav>
-            <hr />
-            <p>
-            <a href="index.html">Home</a>
-            
-            <a href="menu.html">Menu</a>    
-            <a href="contact.html">Contact Us</a>
+         <p>
+                <a id="home" class="btn badge-pill" href="index.html">&#127968;</a>
+                
+                
+                
+                <a id="menu" class="btn badge-pill" href="menu.html">Menu</a>    
+                
+                
+                
+                <a id="contact" class="btn badge-pill" href="contact.html">Contact Us</a>
             
             </p>
-            <hr />
         </nav>
         
         <section>
-            <h2>Contact Form</h2>
             <form action="submit.html" method="post">
                 
-                <label for="Name">Name:</label>
+                <label for="Name"><strong>Name:</strong></label>
                 <input type="text" id="Name" name="Name">
                 <br />
                 
-                <label for="email">Email:</label>
+                <label for="email"><strong>Email:</strong></label>
                 <input type="text" id="email" name="email">
                 <br />
                 
@@ -52,7 +60,7 @@ Rev:1
                 <input type="text" id="phone" name="phone">
                 <br />
                 
-                <label for="contact">Reason For Inquiry:</label>
+                <label for="contact"><strong>Reason For Inquiry:</strong></label>
                 <select id="contact" name="contact">
                     <option value="catering" selected>Catering</option>
                     <option value="privateparty">Private Party</option>
@@ -99,11 +107,6 @@ Rev:1
         
         <footer>
              <p>1234 West East Road<br />Caledonia IL 61011 <br />Call Us: 123-456-7890</p>
-            
-            <p>M: Closed T: Closed W: 4-10 Th: 4-10 F: 4-12 Sat: 4-12 Sun: 4-8</p>
-            
-            <p>&copy; 2020 Cade Rosche, All rights reserved.
-            </p>
         </footer>
         
         <!-- JavaScript Links -->
